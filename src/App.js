@@ -43,7 +43,7 @@ function App() {
     <div className="App">
       <h1>Your fox friend:</h1>
       <button onClick={handleButtonClick} className="button">Click for a new friend!</button>
-      <img src={items} width={500} />
+      <img src={items} width={500} alt="fox" />
     </div>
   );
 }
